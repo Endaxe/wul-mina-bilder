@@ -1,13 +1,20 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
 }
 
 
+body {
+    background-color: #e3e2e1;
+}
+
 img {
     max-width: 100%;
     width: 100%;
+    border: 6px solid #c4c4c4;
+
 }
 
 .container {
@@ -15,15 +22,34 @@ img {
     margin-inline: auto;
 }
 
-ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+nav {
+
+    background-color: #c4c4c4;
+    height: 7%;
 }
 
-.image-grid{
+ul {
+    list-style-type: none;
+}
+
+.navigation {
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.image-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 1rem;
+}
+
+.om {
+    text-align: center;
 }
