@@ -5,11 +5,16 @@ body {
     height: 100vh;
 }
 
+p {
+    font-family: 'Kanit', sans-serif;
+}
+
 
 body {
-   
-        background-image: linear-gradient(#ffffff, #cbcbcb, #ffffff);
-      }
+
+    background-image: linear-gradient(#ffffff, #cbcbcb, #ffffff);
+
+}
 
 
 img {
